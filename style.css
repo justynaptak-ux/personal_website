@@ -1,0 +1,89 @@
+html, body {
+  background-image: linear-gradient(to left, #663300, #ecd9c6);
+  font-family: 'calibri', sans-serif;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  align-self: center;
+  font-size: 1vw;
+}
+
+.personal{
+  text-align: center;
+  width: 30%;
+  padding-top: 5%;
+  float: left;
+}
+
+.leftcolumn {
+  width: 30%;
+  float: left;
+}
+
+.rightcolumn {
+  width: 40%;
+  float: left;
+}
+
+#social > a {
+  text-decoration: none;
+  font-size: 4vw;
+}
+
+#description {
+  color: black;
+  padding: 3%;
+  font-size: 1.2vw;
+}
+
+#picture {
+  width: 60%;
+  border-radius: 50%;
+}
+
+.circle {
+  border-radius: 50%;
+  border-width: 2%;
+  border-style: solid;
+  border-color: white;
+  margin: 5%;
+  background-size: contain;
+  margin-bottom: 5%;
+}
+
+.circle > a {
+  text-decoration: none;
+  font-size: 180%;
+  color: white;
+}
+
+#circle1 {
+  width: 80%;
+  background-image: url("img/cvitae.jpg");
+}
+
+#circle2 {
+  width: 60%;
+  margin-left: 55%;
+  background-image: url("img/aparatcanon.jpg");
+}
+
+#circle3 {
+  width: 75%;
+  background-image: url("img/portoflio.jpg");
+}
+
+.afterhover {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  opacity:0.8;
+  display: none;
+  text-align: center;
+}
+
+.afterhover_text {
+  padding-top: 45%;
+}
