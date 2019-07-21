@@ -15,5 +15,4 @@ $(document).ready(function () {
       $(this).height($(this).width())
     });
   });
-
 });

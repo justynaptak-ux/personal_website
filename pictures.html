@@ -1,33 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="stylepictures.css">
-  <meta charset="utf-8">
-  <title> photos </title>
+  <script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+  <link rel="stylesheet" href="magnific-popup.css">
+  <script src="jquery.magnific-popup.js"></script>
+  <script src="scriptpictures.js"></script>
+  <link rel="stylesheet" href="stylepictures.css">
 </head>
 
 <body>
-  <h1> photos </h1>
-  <div class=secondheading>
+  <h1 id="firstsentence"> photos </h1>
+  <div class="secondheading">
     <h2> <i> Canon 550D </i> </h2>
   </div>
-<div style=margin>
+<div id=gallery>
 <div class=pictureposition>
-  <img src="img/mati.jpg" alt="Mateusz" width="280px" class="picture">
-  <img src="img/asia.jpg" alt="Joanna" width="370px" class="picture">
-  <img src="img/ivan.jpg" alt="Ivan" width="250px" class="picture">
+  <a href="img/mati.jpg" title="Mateusz">
+    <img src="img/mati.jpg" width="280px" class="picture">
+  </a>
+  <a href="img/asia.jpg" title="Joanna">
+  <img src="img/asia.jpg" width="370px" class="picture">
+  </a>
+  <a href="img/ivan.jpg" title= "Ivan">
+  <img src="img/ivan.jpg" width="250px" class="picture">
+  </a>
 </div>
 <div class=pictureposition>
-  <img src="img/jaszczu.jpg" alt="Matylda" width="250px" height="375px" class="picture">
-  <img src="img/paryż.jpg" alt="Paryż" width="630px" height="330px" class="picture">
+  <a href="img/jaszczu.jpg" title="Matylda">
+  <img src="img/jaszczu.jpg" width="250px" height="375px" class="picture">
+  </a>
+  <a href="img/paryż.jpg" title="Paryż">
+  <img src="img/paryż.jpg"width="630px" height="330px" class="picture">
+  </a>
 </div>
 <div class=pictureposition>
-  <img src="img/autko.jpg" alt="Samochod" width="280px" class="picture">
-  <img src="img/olka.jpg" alt="Aleksandra" width="350px" class="picture">
-  <img src="img/krzesła.jpg" alt="Chairs" width="250px" height="340px" class="picture">
+  <a href="img/autko.jpg" title="Blue Italian Car">
+  <img src="img/autko.jpg"width="280px" class="picture">
+  </a>
+  <a href="img/olka.jpg" title="Aleksandra">
+  <img src="img/olka.jpg" width="350px" class="picture">
+  </a>
+  <a href="img/krzesła.jpg" title="Chairs">
+  <img src="img/krzesła.jpg" width="250px" height="340px" class="picture">
+  </a>
+</div>
 </div>
 <div class=lastline>
-  <p> Copyright: Justyna Ptak </p>
+  <p class="secondheading"> Copyright: Justyna Ptak </p>
 </div>
+
 </body>
 </html>
