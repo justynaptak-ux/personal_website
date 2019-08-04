@@ -16,4 +16,12 @@ $(document).ready(function () {
 			}
 		}
 	});
+  $(".circle").each( function() {
+    $(this).height($(this).width())
+  });
+  $(window).resize(function(){
+    $(".circle").each( function() {
+      $(this).height($(this).width())
+    });
+  });
 });
